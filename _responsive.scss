@@ -31,19 +31,21 @@
           gap: 25px;
           padding: 25px;
         }
-    }
+        .bottom{
+
+            .buttons{
+                   flex-direction: row;
+                   width: 60%;
+                   gap: 20px;
+           }
+        }
     .companies{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-
-    .buttons{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        width: 60%;
     }
+
     footer{
         flex-direction: row;
         justify-content: space-around;
