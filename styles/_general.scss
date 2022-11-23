@@ -21,6 +21,6 @@ body{
     @include flex(flex, column , center , center );
     text-align: center;
     min-height: 100vh;
-    background: url('images/bg-header-mobile.png') no-repeat top right;
+    background: url('../images/bg-header-mobile.png') no-repeat top right;
     background-size:contain;
 }
