@@ -1,0 +1,43 @@
+.bottom{
+    margin-top: 150px;
+    @include flex(flex, column, center, center);
+    gap: 30px;
+    padding: 28px;
+    h2{
+        font-weight: 600;
+        font-size: 2.1em;
+        color: var(--Dark-Grayish-Blue);
+    }
+    p{
+        color: var(--Grayish-Blue);
+        font-size: 1.1em;
+        font-weight: 4001;
+    }
+    button{
+        border-radius: 50px;
+        padding: 20px 35px 20px 35px;
+        width: 90%;
+        font-size: 1.1em;
+        font-weight: 400;
+        color: #fff;
+        border: none;
+        
+    }
+    .button1{
+        background-color: var(--Strong-Cyan);
+        border-bottom: 3px solid var(--Grayish-Blue);
+        &:hover{
+            background-color: hsla(171, 66%, 44%,.7);
+            cursor: pointer;
+        }
+    }
+    .button2{
+        background-color: var(--Light-Blue);
+        border-bottom: 3px solid var(--Dark-Grayish-Blue);
+        &:hover{
+            background-color: hsla(233, 100%, 69%,.7);
+            cursor: pointer;
+        }
+        
+    }
+}

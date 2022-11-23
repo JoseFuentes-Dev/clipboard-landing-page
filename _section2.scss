@@ -1,0 +1,29 @@
+.section2{
+ @include flex(flex, column, center, center);
+ gap: 25px;
+ padding: 28px;
+        h2{
+            font-weight: 600;
+            font-size: 2.1em;
+            color: var(--Dark-Grayish-Blue);
+        }
+        p{
+            color: var(--Grayish-Blue);
+            font-size: 1.1em;
+            font-weight: 4001;
+        }
+        .device{
+            margin-top: 50px;
+            width: 90%;
+        }
+        h3{
+            margin-top: 30px;
+            font-weight: 600;
+            font-size: 1.4em;
+            color: var(--Dark-Grayish-Blue);
+        }
+        img{
+            margin-top: 40px;
+        }
+
+    }
